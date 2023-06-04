@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrackPlayer</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="player-container">
+        <!-- Song Details -->
+        <div class="image-container">
+            <img src="images/naRoja.webp" alt="Na Roja Nuvve"/>
+        </div>
+        <h2>Na Roja Nuvve</h2>
+        <h3>Abdul Wahad</h3>
+        <audio src="songs/NaRoja.mp3" ></audio>
+
+        <!-- Progress -->
+        <div class="progress-container">
+            <div id="progress" class="progress"></div>
+            <div class="duration-wrapper">
+                <span id="starting-time">0:00</span>
+                <span id="duration">1:02</span>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <div class="player-controls">
+            <i class="fa-solid fa-backward" id="prev" title="prev"></i>
+            <i class="fa-solid fa-play" id="play" title="play"></i>
+            <i class="fa-solid fa-forward" id="next" title="next"></i>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/5465192afa.js" crossorigin="anonymous"></script>
+</body>
+</html>
